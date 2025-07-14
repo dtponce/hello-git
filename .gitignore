@@ -1,0 +1,37 @@
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+
+# Ignorar entorno virtual
+venv/
+
+# Archivos temporales
+*.log
+*.bak
+*.tmp
+
+# Configuraciones del editor
+.vscode/
+.idea/
+
+# Archivos sensibles
+.env
+
+# Ignorar carpetas específicas
+# (agrega las que quieras ignorar explícitamente)
+
+# Ignora cualquier carpeta llamada "temp"
+temp/
+
+# Ignora cualquier carpeta "build" en cualquier parte del proyecto
+**/build/
+
+# Ignora carpeta "dist" en cualquier parte
+**/dist/
+
+# Ignora carpetas de backup
+backup/
+.old/
+
+# Ignorar archivos de macOS
+**/.DS_Store
